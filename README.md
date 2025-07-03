@@ -1,41 +1,56 @@
+
+
 # 🎬 YouTube Ultimate Enhancer
 
-**Ad Skipper + Age Restriction Bypass + Download Button**
+**Skip Ads • Bypass Age Restrictions • Add Download Button**
 
-Supercharge your YouTube experience with this powerful userscript! The **YouTube Ultimate Enhancer** improves usability by skipping ads, bypassing age restrictions, and adding a sleek, built-in download button for quick access to video downloads.
+Boost your YouTube experience with this powerful userscript. It removes ads, unlocks age-restricted content, and adds a sleek download button directly to the video page.
+
+---
 
 ## ✨ Features
 
-* 🚫 **Ad Skipper**
-  Automatically skips video ads and removes ad overlays and banners.
+* 🚫 **Ad Skipper** – Automatically skips and removes all video ads and overlays.
+* 🔞 **Age Restriction Bypass** – Watch age-restricted videos without logging in.
+* ⬇️ **Download Button** – Stylish, integrated download button using [yt1s.com](https://www.yt1s.com/).
+* ⚙️ **Modern UI Support** – Works with YouTube’s latest layout and YouTube Music.
+* ♻️ **SPA-Friendly** – Automatically re-applies enhancements on navigation.
 
-* 🔞 **Age Restriction Bypass**
-  Seamlessly unlocks age-restricted videos without requiring login or account verification.
-
-* ⬇️ **Smart Download Button**
-  Adds a stylish and responsive download button directly on the video page using [yt1s.com](https://www.yt1s.com/).
-
-* ⚙️ **Modern UI Integration**
-  Designed to work with YouTube’s latest layouts, including support for YouTube Music.
-
-* ♻️ **Single Page App (SPA) Support**
-  Automatically detects navigation events and re-applies enhancements without reloads.
+---
 
 ## 📦 Installation
 
 Install with a userscript manager like [Tampermonkey](https://www.tampermonkey.net/) or [Violentmonkey](https://violentmonkey.github.io/).
 
-[Install the script directly](LINK_TO_RAW_SCRIPT_HERE) <!-- Replace with actual raw GitHub file link -->
+➡️ [**Click here to install the script**](https://github.com/Abaidullah9/Tools-For-Web/blob/main/youtube-ultimate-enhancer.user.js)
+
+
+
+---
+
+## ✍️ Manual Installation (Copy & Paste)
+
+Prefer to paste the code manually? Here’s how:
+
+1. Install [Tampermonkey](https://www.tampermonkey.net).
+2. Click the **Tampermonkey icon** → **Create a new script**.
+3. Delete the default code.
+4. Paste in the full code from [`youtube-ultimate-enhancer.user.js`](https://github.com/your-username/youtube-ultimate-enhancer/blob/main/youtube-ultimate-enhancer.user.js).
+5. Press `Ctrl+S` (or `Cmd+S` on Mac) to save.
+6. Done! Open YouTube and enjoy the enhancements.
+
+---
 
 ## 🛠️ Technical Notes
 
 * Runs after page load (`@run-at document-idle`)
-* Uses DOM mutation observers for consistent behavior
-* Minimal performance impact
-* Clean and modular code with logging for debugging (`debug = true`)
+* Uses MutationObserver for dynamic YouTube navigation
+* Lightweight and modular with built-in debug logging
+
+---
 
 ## 📝 License
 
-MIT License — feel free to modify, share, and improve!
+MIT License — free to use, modify, and share.
 
 
